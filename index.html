@@ -16,21 +16,10 @@
     <title>Game Over</title>
   </head>
   <body>
-    <section>
+    <section class="home">
       <div class="wrapper">
         <img src="assets/wraper.png" alt="Background photo" />
       </div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div
         class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9"
       >
@@ -39,6 +28,17 @@
             <img src="assets/logo-sm.png" alt="logo" style="width: 40px" />
             Game Reviews
           </h3>
+          <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           <div
             class="collapse small navbar-collapse"
             id="navbarSupportedContent"
@@ -100,13 +100,13 @@
 
       <div class="container my-5 games">
         <div
-          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4"
+          class="row row-cols-1 g-4"
           id="games-data"
         ></div>
       </div>
     </section>
 
-    <section class="details d-none">
+    <section class="details vh-100 d-none">
       <div class="container">
         <div class="hstack justify-content-between">
           <h1 class="text-center h3 py-4">Game Details</h1>
@@ -121,5 +121,6 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="JS/index.js"></script>
   </body>
 </html>
