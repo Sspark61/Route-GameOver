@@ -28,7 +28,7 @@ a {
   color: white !important;
 }
 
-.nav-item .nav-link:active,
+.active,
 .nav-item .nav-link:hover {
   color: #0099cc !important;
 }
