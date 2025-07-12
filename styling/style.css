@@ -1,0 +1,48 @@
+body {
+  font-family: "Comfortaa";
+  background-color: #272b30;
+  color: white;
+}
+
+section .wrapper img {
+  max-height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: rgb(58, 73, 123) !important;
+  margin-inline: auto;
+  margin-top: -50px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+h3 {
+  font-family: "nerko one", cursive;
+  font-size: 1.8rem !important;
+  color: white !important;
+}
+
+a {
+  color: white !important;
+}
+
+.nav-item .nav-link:active,
+.nav-item .nav-link:hover {
+  color: #0099cc !important;
+}
+
+.details {
+  background-color: #27282b;
+}
+
+.games #games-data .card {
+  filter: grayscale(70%);
+  transition: 0.3s;
+}
+
+.games #games-data .card:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
